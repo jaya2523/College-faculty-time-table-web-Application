@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+     #marq{
+       padding-top: 25px;
+        color: #FFFFFF;
+        
+    }   
+
+#header{
+        
+        height:120px;
+        font-size: 60px;
+        background-color: #D2042D;
+    
+    }
+#img0{
+    position: fixed;
+    z-index: -2;
+    height: 100%;
+    width:100%;
+}
+#img1{
+    position: fixed;
+    z-index: -1;
+    width: 40%;
+    height: 90%;
+    
+}  
+#img2{
+    position:fixed;
+    height: 50px;
+    width: 100px;
+    padding-left: 350px;
+    top: -230px;
+}
+#img3{
+    position: absolute;
+    padding-left: 1637px;
+    padding-top: 150px;
+    height: 300px;
+}
+.login{
+    position: absolute;
+    margin-left:  1400px;
+    margin-top: 300px;
+}
+input[type="text"]
+{
+    font-size:30px;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+input[type="password"]
+{
+    font-size:30px;
+   font-family: 'Balsamiq Sans', cursive;
+ 
+}
+
+/*
+input[type="text"]::-webkit-input-placeholder {
+     font-family: 'Oswald',sans-serif;
+}
+*/
+/*
+input->placeholder{
+   font-family: 'Oswald',sans-serif;
+}
+*/
+input{
+    border:0px;
+    outline: none;
+    display: inline-block;
+    
+}
+
+h2{
+    font-size: 60px;
+    padding-left: 185px;
+}
+.h5{
+font-size: 35px;
+position: absolute;
+padding-left: 40px;
+padding-top: 48px;
+}
+i{
+    position: relative;
+}
+.a,a{
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    
+   text-align: right;
+    transition: 0.3s;
+}
+#btn,value{
+    
+      height: 65px;
+      font-size: 30px;
+      border: none; /* <-- This thing here */
+      border:solid 1px #ccc;
+     font-family: 'Roboto', sans-serif;
+      border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    width: 480px;
+    
+}
+#btn:hover{
+    opacity: 0.3;
+}
+a:visited{
+    color: #8395a7;
+    
+}
+a:hover{
+   color: #D2042D;
+    
+}
+
+    /*
+body{
+    font-family: 'Poppins',sans-serif;
+    overflow: hidden;
+}
+#header{
+        
+        height:65px;
+        font-size: 35px;
+        font-weight: 600;
+        background-color: #FF0000;
+    }
+    #marq{
+       padding-top: 10px;
+        color: #FFFFFF;
+        
+    }
+
+    #img1{
+        position: fixed;
+        z-index: -1;
+        height: 100%;
+        bottom: 0;
+        top: 0;
+        
+        
+    }
+.img{
+    display: flex;
+
+    position: relative;
+    height: 200px;
+    width: 400px;
+    
+}
+.container{
+    
+}*/

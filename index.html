@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Redressed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+     #marq{
+       padding-top: 25px;
+        color: #FFFFFF;
+        
+    }   
+
+#header{
+        
+        height:100px;
+        font-size: 50px;
+        background-color: #D2042D;
+   
+    
+    }
+#img0{
+    position: fixed;
+    z-index: -2;
+    height: 100%;
+    width:100%;
+}
+#img1{
+    position: fixed;
+    z-index: -1;
+    width: 40%;
+    height: 90%;
+    
+}  
+#img2{
+    position:fixed;
+    height: 1100px;
+    width: 700px;
+    padding-left: 150px;
+    top: -150px;
+}
+#img3{
+    position: absolute;
+    padding-left: 1030px;
+    padding-top: 40px;
+    height: 200px;
+}
+.login{
+    position: absolute;
+    margin-left:  1400px;
+    margin-top: 300px;
+}
+input[type="text"]
+{
+    font-size:26px;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+input[type="password"]
+{
+    font-size:26px;
+   font-family: 'Balsamiq Sans', cursive;
+ 
+}
+
+/*
+input[type="text"]::-webkit-input-placeholder {
+     font-family: 'Oswald',sans-serif;
+}
+*/
+/*
+input->placeholder{
+   font-family: 'Oswald',sans-serif;
+}
+*/
+input{
+    border:0px;
+    outline: none;
+    display: inline-block;
+    
+}
+
+h2{
+    font-size: 50px;
+    padding-left: 165px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 120px;
+}
+.h5{
+font-size: 35px;
+position: absolute;
+padding-left: 40px;
+padding-top: 48px;
+}
+i{
+    position: relative;
+}
+.a,a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    
+   text-align: right;
+    transition: 0.3s;
+}
+#btn,value{
+    
+      height: 55px;
+      font-size: 30px;
+      border: none; /* <-- This thing here */
+      border:solid 1px #ccc;
+     font-family: 'Roboto', sans-serif;
+      border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    width: 500px;
+    
+}
+#btn:hover{
+    opacity: 0.3;
+}
+a:visited{
+    color: #8395a7;
+    
+}
+a:hover{
+   color: #D2042D;
+    
+}
+    input{
+        width: 400px;
+    }
+    .login{
+       
+    }
+</style>
+</head>
+<body style="background-color: #F2F5F0">
+<div id="header" style=" -webkit-box-shadow: 0 8px 10px -6px black;">
+<marquee id="marq" style="padding-bottom: 80px;">SYMBIOSIS UNIVERSITY OF APPLIED SCIENCES<span style="margin-left:5in;"></span>SYMBIOSIS UNIVERSITY OF APPLIED SCIENCES<span style="margin-left:5in;"></span>SYMBIOSIS UNIVERSITY OF APPLIED SCIENCES</marquee>
+</div>
+<img id="img1" src=imageedit_14_8974085763.png>
+<img id="img2" src="undraw_personalization_triu.svg">
+<div class="std">
+<img id="img3" src="undraw_profile_pic_ic5t.svg">
+<div class="login" style="left: -550px; top:-100px;width: 500px">
+<div class="h5">
+    <h5 style="padding-top: 187px; font-size: 27px; padding-left: 16px; color: #D2042D; display: none; position: relative;" id="5" >Password</h5></div>
+     <div class="h5"><h5 style="padding-top: 54px; font-size: 27px; padding-left: 16px ; color: #D2042D; display: none;position: relative;" id="6" >Username</h5></div>
+<form action="index1.php" method="post">
+<h2>Welcome</h2><div>
+<i class="material-icons" style="font-size:36px; position: absolute;padding-top: 10px; color: #636e72" id="two">person</i></div>
+    <div style="margin-left: 53px;"><input style="background-color:#F2F5F0;  height: 50px;width: 500px; padding-top: 9px;" type="text" name="name"  id="input" placeholder="Username" oninput="show1('two'),display1('new'),print1('11')" onclick="shownew('four'),display2('new2'),print2('12');"required></div><div><br><hr id="new" style="background-color: #D2042D;border: 2px solid #D2042D; display: none;"><hr id="11"><br><br>
+<i class="material-icons" style="font-size:36px; position: absolute; padding-top: 10px; color: #636e72" id="four">lock</i></div>
+    <div style="margin-left: 53px;"><input style="background-color:#F2F5F0; height: 60px;width: 600px;" type="password" name="password" placeholder="Password" oninput="show1('four'),display1('new2'),print1('12')" onclick="shownew('two'),display2('new'),print2('11')" required></div><br><hr style="background-color: #D2042D;border: 2px solid #D2042D;display: none;" id="new2"><hr id="12">
+<div class="a">
+<a href="#">Forget Password?</a><br></div>
+<input style =" background:linear-gradient(to right,#D2042D,#e84118,#D2042D); color:#FFFFFF; " id="btn" type="submit"  value="Sign in" name="login">
+<!--<a href="#" style="position: absolute; padding-left: 520px; top: 480px; color: #0984e3; cursor: pointer;" id="u">Sign in</a><i class="material-icons" style="font-size:30px; position: absolute; padding-left: 118px;bottom: 36px;color:#0984e3 ;">trending_flat</i>-->
+    </form></div></div>
+<script type="text/javascript" src="style.js">
+</script>
+</body>
+</html>
