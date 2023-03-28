@@ -1,5 +1,14 @@
 # College-faculty-time-table-web-Application
-The Objective of the project is to design and code the time table for CSIT faculty" using html, css, javascript, php and mysql.
+"The Objective of the project is to design and code the time table for CSIT faculty" using html, css, javascript, php and mysql. It includes login, dashboard, search page, sign in/up, admin page etc.
+here is the link: https://youtu.be/jhW1EBJOPv4
+
+# For-running-the-Application
+For User login
+Username:Manish Khule
+Password:T003
+For Admin login
+Username:admin
+password:pass@123
 # Preview-of-the-Project
 ![Screenshot (390)](https://user-images.githubusercontent.com/93309776/228205616-465bc03c-916f-4ec0-bd96-215ea9b51a5c.png)
 ![Screenshot (391)](https://user-images.githubusercontent.com/93309776/228241500-80c09ea4-750f-45bd-86a1-0e460d4658ed.png)
