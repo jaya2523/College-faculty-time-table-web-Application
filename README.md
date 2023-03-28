@@ -3,10 +3,10 @@
 here is the link: https://youtu.be/jhW1EBJOPv4
 
 # For-running-the-Application
-For User login<br>
+For User login - <br>
 Username:Manish Khule<br>
 Password:T003<br>
-For Admin login<br>
+For Admin login - <br>
 Username:admin<br>
 password:pass@123<br>
 # Preview-of-the-Project
